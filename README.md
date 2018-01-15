@@ -34,4 +34,8 @@ echo "export PATH=$HOME/byobu/bin:$PATH" >> $HOME/.bashrc
 ```bash
       byobu
 ```
-
+### Byobu as default
+Add this in .bashrc
+```bash
+_byobu_sourced=1 . /home/murat/byobu/bin/byobu-launch 2>/dev/null || true
+```
