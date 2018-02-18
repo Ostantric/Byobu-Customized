@@ -9,8 +9,8 @@ install locally, using the following instructions...
 ## Installation
 ```bash
 git clone https://github.com/Ostantric/Byobu-Customized.git byobu-src 
-cd byobu-src./debian/rules
-autoconf
+cd byobu-src
+./debian/rules autoconf
 cd byobu-src
 ./configure --prefix="$HOME/byobu"
 ```
