@@ -39,3 +39,7 @@ Add this in .bashrc
 ```bash
 _byobu_sourced=1 . /home/murat/byobu/bin/byobu-launch 2>/dev/null || true
 ```
+### Clear Byobu config directory before start using it
+```
+rm -rf ~/.byobu
+```
